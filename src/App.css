@@ -1,0 +1,21 @@
+.scrollbar-dark::-webkit-scrollbar {
+    width: 6px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+.scrollbar-dark {
+    scrollbar-color: rgba(255, 255, 255, 0.3) rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background: rgb(9, 105, 121);
+    background: linear-gradient(180deg, rgba(9, 105, 121, 0) 40%, rgba(0, 212, 255, 1) 100%);
+}
